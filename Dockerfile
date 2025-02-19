@@ -17,7 +17,7 @@ COPY . .
 
 
 # Install python package
-RUN /Users/ericknegron/.local/bin/uv pip install --system --no-cache -e .
+RUN pip install --system --no-cache -e .
 
 #Expose uvicorn/fastapi
 EXPOSE 8002
