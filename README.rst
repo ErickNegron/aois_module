@@ -39,7 +39,7 @@ The Pupil Labs AOIs Module leverages the powerful GroundingSAM framework to auto
 
 .. code:: bash
 
-    git clone https://github.com/pupil-labs/aois_module
+    git clone https://github.com/ErickNegron/aois_module
     cd aois_module
     docker build -t pupil-labs-aois-module .
 
