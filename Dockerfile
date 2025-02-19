@@ -15,6 +15,9 @@ WORKDIR /usr/src/app
 # Copy the current directory contents into the container at /usr/src/app
 COPY . .
 
+#Adding ability for dockerfile to read 
+COPY /Users/ericknegron/.local/bin/uv /path/in/container/uv
+
 # Install python package
 RUN /Users/ericknegron/.local/bin/uv pip install --system --no-cache -e .
 
